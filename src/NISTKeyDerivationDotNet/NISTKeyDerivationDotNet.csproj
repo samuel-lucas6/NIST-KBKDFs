@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Samuel Lucas</Authors>
+        <Description>A .NET implementation of the NIST SP 800-56Cr2 and NIST SP 800-108r1 KDFs.</Description>
+        <Copyright>Copyright (c) 2023 Samuel Lucas</Copyright>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/samuel-lucas6/NIST-KBKDFs</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/samuel-lucas6/NIST-KBKDFs</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>nist kdf kbkdf hash hmac kmac cmac</PackageTags>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BouncyCastle.Cryptography" Version="2.2.1" />
+    </ItemGroup>
+
+</Project>

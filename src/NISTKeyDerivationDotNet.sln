@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NISTKeyDerivationDotNet", "NISTKeyDerivationDotNet\NISTKeyDerivationDotNet.csproj", "{F80BE749-0F4D-4842-A6AF-8B387AFCFB8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NISTKeyDerivationDotNet.Tests", "NISTKeyDerivationDotNet.Tests\NISTKeyDerivationDotNet.Tests.csproj", "{47C322BC-9204-48FE-9C3B-1E8ED5733DBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80BE749-0F4D-4842-A6AF-8B387AFCFB8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80BE749-0F4D-4842-A6AF-8B387AFCFB8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80BE749-0F4D-4842-A6AF-8B387AFCFB8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80BE749-0F4D-4842-A6AF-8B387AFCFB8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47C322BC-9204-48FE-9C3B-1E8ED5733DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C322BC-9204-48FE-9C3B-1E8ED5733DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C322BC-9204-48FE-9C3B-1E8ED5733DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C322BC-9204-48FE-9C3B-1E8ED5733DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
