@@ -14,8 +14,7 @@ public static class OneStepKMAC
         Span<byte> counter = stackalloc byte[4];
         BinaryPrimitives.WriteUInt32BigEndian(counter, 1);
         var kmac = new KMac((int)kmacVariant, "KDF"u8.ToArray());
-        var parameters = new KeyParameter(salt.Length == 0 ? (int)kmacVariant == 128 ? new byte[164] : new byte[132] : salt);
-        kmac.Init(parameters);
+        kmac.Init(new KeyParameter(salt.Length == 0 ? (int)kmacVariant == 128 ? new byte[164] : new byte[132] : salt));
         kmac.BlockUpdate(counter);
         kmac.BlockUpdate(sharedSecret);
         kmac.BlockUpdate(fixedInfo);
