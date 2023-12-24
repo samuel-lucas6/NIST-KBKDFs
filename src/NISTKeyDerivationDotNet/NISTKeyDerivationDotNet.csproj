@@ -12,7 +12,7 @@
         <PackageProjectUrl>https://github.com/samuel-lucas6/NIST-KBKDFs</PackageProjectUrl>
         <RepositoryUrl>https://github.com/samuel-lucas6/NIST-KBKDFs</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
-        <PackageTags>nist kdf kbkdf hash hmac kmac cmac</PackageTags>
+        <PackageTags>nist kdf kbkdf prf hash hmac kmac cmac one-step two-step counter-mode feedback-mode double-pipeline-mode</PackageTags>
         <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     </PropertyGroup>
 
